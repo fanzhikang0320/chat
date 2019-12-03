@@ -1,0 +1,22 @@
+<view class='father'>
+<view class='wrap'>
+  <input placeholder='请输入密码' password='false' ></input>
+</view>
+<view class='wrap'>
+  <input placeholder='请确认您的密码' password='false'></input>
+</view>
+<view class='wrap'>
+  <input placeholder='请输入您的手机号'  type='number' bindinput='inputPhone'></input>
+</view>
+<view class='wrap'>
+  <input placeholder='请输入验证码' class='yes'></input>
+  <button size='mini' class='load' type='primary'>点击获取</button>
+</view>
+
+
+
+
+<button size='mini' class='btn r-btn' bindtap='showPhone'>注册</button>
+<button size='mini' class='btn l-btn'>取消</button>
+
+</view>
