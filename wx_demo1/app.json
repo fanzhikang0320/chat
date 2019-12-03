@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我的微信",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":"true",
+    "backgroundColor":"red"
+  },
+  "tabBar":{
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/1.png",
+        "selectedIconPath":"images/11.png"
+      },
+      {
+        "pagePath":"pages/logs/logs",
+        "text":"日志",
+        "iconPath":"images/2.png",
+        "selectedIconPath":"images/22.png"
+      }
+      ]
+  }
+}
