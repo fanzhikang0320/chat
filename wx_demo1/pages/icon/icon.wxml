@@ -1,0 +1,22 @@
+<view class='container'>
+<icon type='success' size='20'></icon>
+<icon type='info' size='23'></icon>
+<icon type='success_no_circle' size='28'></icon>
+<icon type='warn' color='orange' size='25'></icon>
+<icon type='cancel' size='25'></icon>
+</view>
+
+<view>
+<text space='ensp'>My name is Liming</text>
+
+<text space='emsp'>My name is Liming</text>
+
+</view>
+
+
+<view>
+<input placeholder='请输入账号'></input>
+<input placeholder='请输入密码' password='false'></input>
+<button type='primary' size='mini' bindtap='pay'>向我付钱</button>
+<button type='warn' size='mini'>取消</button>
+</view>
