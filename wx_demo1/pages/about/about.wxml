@@ -1,0 +1,8 @@
+<!--pages/about/about.wxml-->
+<text>I'm about page!</text>
+
+<view class='redText'>
+hello world!
+</view>
+
+<button bindtap='show'>点击支付</button>
