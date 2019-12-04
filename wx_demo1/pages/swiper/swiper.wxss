@@ -6,3 +6,16 @@
   height: 100%;
 }
 
+.bg{
+  background-color: #eee;
+}
+.nav{
+  display: flex;
+}
+
+.nav navigator{
+  font-size: 30rpx;
+  margin: 0 10rpx;
+  white-space: nowrap;
+  height: 50rpx;
+}

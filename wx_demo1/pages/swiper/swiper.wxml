@@ -1,3 +1,29 @@
+
+<!-- scroll-view -->
+
+<view>
+  <scroll-view class='bg' scroll-x='true'>
+    <view class='nav'>
+      <navigator url=''>国际新闻</navigator>
+      <navigator url=''>国内新闻</navigator>
+      <navigator url=''>社会新闻</navigator>
+      <navigator url=''>娱乐新闻</navigator>
+      <navigator url=''>国际新闻</navigator>
+      <navigator url=''>国内新闻</navigator>
+      <navigator url=''>社会新闻</navigator>
+      <navigator url=''>娱乐新闻</navigator>
+    </view>
+
+  </scroll-view>
+
+
+</view>
+
+
+
+
+<!-- swiper -->
+
 <view>
   <swiper autoplay='true' interval='2000' circular='true' easing-function='easeInCubic' indicator-dots='true' indicator-color='#fff' indicator-active-color='black'>
     <swiper-item>
@@ -15,3 +41,18 @@
   </swiper>
 
 </view>
+
+
+<!-- 新闻列表 -->
+
+<view>
+  <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3608155120,1630233151&fm=26&gp=0.jpg'></image>
+  <view>
+<view>Hello World</view>
+  <text class='content'>Hi,welcome to Henan!</text>
+  </view>
+
+
+</view>
+
+
