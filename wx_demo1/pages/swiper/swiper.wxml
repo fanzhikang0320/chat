@@ -1,0 +1,17 @@
+<view>
+  <swiper autoplay='true' interval='2000' circular='true' easing-function='easeInCubic' indicator-dots='true' indicator-color='#fff' indicator-active-color='black'>
+    <swiper-item>
+       <!-- <navigator url='/pages/about/about'>  -->
+        <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2752453349,2871240348&fm=26&gp=0.jpg' class='img' />
+       <!-- </navigator>  -->
+      
+    </swiper-item>
+    <swiper-item>
+
+    <!-- <navigator url='/pages/reg/reg'> -->
+      <image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4014971929,2584146558&fm=26&gp=0.jpg' class='img'></image>
+    <!-- </navigator> -->
+    </swiper-item>
+  </swiper>
+
+</view>
