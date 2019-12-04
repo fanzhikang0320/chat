@@ -1,0 +1,278 @@
+<!--pages/index/index.wxml-->
+
+<view class='container'>
+  <!-- 搜索栏 -->
+  <view class='search-container'>
+    <view class='search-left'>
+      <view class='search-menu-icon'></view>
+    </view>
+    <view class='search-center'>
+      <view class='search-center-container'>
+        <view class='jd-icon'></view>
+        <view class='search-icon'></view>
+        <input type='text' placeholder='搜索好物' class='search-input'></input>
+      </view>
+    </view>
+    <view class='search-right'>
+      <view class='login'>登录</view>
+    </view>
+  </view>
+
+  <!-- 轮播图 -->
+
+  <view class='swiper-container'>
+    <view class='swiper-bg'></view>
+    <swiper indicator-dots='true' autoplay='true' interval='3000' indicator-active-color='rgb(200, 37, 25)' indicator-color='#fff'>
+      <swiper-item class='swiper-item-nav'>
+        <navigator url='#' class='nav'>
+          <image src='/image/s1.jpg'></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item class='swiper-item-nav'>
+        <navigator url='#' class='nav'>
+          <image src='/image/s2.jpg'></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item class='swiper-item-nav'>
+        <navigator url='#' class='nav'>
+          <image src='/image/s3.jpg'></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item class='swiper-item-nav'>
+        <navigator url='#' class='nav'>
+          <image src='/image/s4.jpg'></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  
+  </view>
+  <!-- 动态滑动导航菜单 -->
+  <view class='nav-container'>
+    <swiper indicator-dots='true' class='nav-box'>
+      <swiper-item>
+        <view class='menuWrap'>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/shop.png'></image>
+              <view class='title'>京东超市</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/phone.png'></image>
+              <view class='title'>数码电气</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/clothes.png'></image>
+              <view class='title'>京东服饰</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/fresh.png'></image>
+              <view class='title'>京东生鲜</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/gohome.png'></image>
+              <view class='title'>京东到家</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/topup.png'></image>
+              <view class='title'>充值缴费</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/puzzle.png'></image>
+              <view class='title'>9.9元拼</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/quan.png'></image>
+              <view class='title'>领券</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/money.png'></image>
+              <view class='title'>赚钱</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/plus.png'></image>
+              <view class='title'>PLUS会员</view>
+            </navigator>
+          </view>
+
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='menuWrap'>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/jinkou.png'></image>
+              <view class='title'>京东国际</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/paimai.png'></image>
+              <view class='title'>京东拍卖</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/weipinhui.png'></image>
+              <view class='title'>唯品会</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/w3c.jpg'></image>
+              <view class='title'>玩3C</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/wem.png'></image>
+              <view class='title'>沃尔玛</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/meizhuang.png'></image>
+              <view class='title'>美妆馆</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/travel.png'></image>
+              <view class='title'>京东旅行</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/pp.png'></image>
+              <view class='title'>拍拍二手</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/wuliu.png'></image>
+              <view class='title'>物流查询</view>
+            </navigator>
+          </view>
+          <view class='menu-item'>
+            <navigator>
+              <image src='/image/all.png'></image>
+              <view class='title'>全部</view>
+            </navigator>
+          </view>
+
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+  
+
+<!-- 京东秒杀 -->
+  <view class='seckill-container'>
+    <view class='seckill-top-box'>
+
+    </view>
+    <scroll-view scroll-x='true'>
+      <view class='scroll-view-inner-container'>
+        <view class='seckill-thing'>
+          <image src='https://img14.360buyimg.com/n1/s150x150_jfs/t1/105123/16/3327/142132/5ddf698eEce842960/e5d4310c3c5bcc82.jpg.dpg'></image>
+          <view class='new-price-box'>
+            <view class='money-symbol'>￥</view>
+            <view class='new-price'>176</view>
+          </view>
+          <view class='old-price'>￥234 <view class='border'></view></view>
+          
+        </view>
+        <view class='seckill-thing'>
+          <image src='https://img14.360buyimg.com/n1/s150x150_jfs/t1/48459/37/9504/569689/5d6f48a9Ebf7c67bc/af4fc49ebc5d982a.jpg.dpg'></image>
+          <view class='new-price-box'>
+            <view class='money-symbol'>￥</view>
+            <view class='new-price'>234.8</view>
+          </view>
+          <view class='old-price'>￥783 <view class='border'></view></view>
+        </view>
+        <view class='seckill-thing'>
+          <image src='https://img14.360buyimg.com/n1/s150x150_jfs/t1/9361/14/15398/207313/5c6f6780Ea1cb0bde/75da0ed4988f27b2.jpg.dpg'></image>
+          <view class='new-price-box'>
+            <view class='money-symbol'>￥</view>
+            <view class='new-price'>432</view>
+          </view>
+          <view class='old-price'>￥2133 <view class='border'></view></view>
+        </view>
+        <view class='seckill-thing'>
+          <image src='https://img14.360buyimg.com/n1/s150x150_jfs/t1/75673/1/16329/99672/5ddccd7cE1d8011f7/4c5cfbb88cbee27f.jpg.dpg'></image>
+          <view class='new-price-box'>
+            <view class='money-symbol'>￥</view>
+            <view class='new-price'>4345</view>
+          </view>
+          <view class='old-price'>￥14534 <view class='border'></view></view>
+        </view>
+        <view class='seckill-thing'>
+          <image src='https://img14.360buyimg.com/n1/s150x150_jfs/t1/75673/1/16329/99672/5ddccd7cE1d8011f7/4c5cfbb88cbee27f.jpg.dpg'></image>
+          <view class='new-price-box'>
+            <view class='money-symbol'>￥</view>
+            <view class='new-price'>4345</view>
+          </view>
+          <view class='old-price'>￥14534 <view class='border'></view></view>
+        </view> 
+        <view class='seckill-thing'>
+          <image src='https://img14.360buyimg.com/n1/s150x150_jfs/t1/75673/1/16329/99672/5ddccd7cE1d8011f7/4c5cfbb88cbee27f.jpg.dpg'></image>
+          <view class='new-price-box'>
+            <view class='money-symbol'>￥</view>
+            <view class='new-price'>4345</view>
+          </view>
+          <view class='old-price'>￥14534 <view class='border'></view></view>
+        </view> 
+        <view class='seckill-thing'>
+          <image src='https://img14.360buyimg.com/n1/s150x150_jfs/t1/75673/1/16329/99672/5ddccd7cE1d8011f7/4c5cfbb88cbee27f.jpg.dpg'></image>
+          <view class='new-price-box'>
+            <view class='money-symbol'>￥</view>
+            <view class='new-price'>4345</view>
+          </view>
+          <view class='old-price'>￥14534 <view class='border'></view></view>
+        </view>
+      </view>           
+    </scroll-view>
+  
+  </view>
+
+
+
+
+  <!-- 底部导航栏 -->
+
+  <view class='bottom-nav-container'>
+    <navigator url='#'>
+      <image src='/image/home.png'></image>
+    </navigator>
+    <navigator url='#'>
+      <image src='/image/feilei.png'></image>
+    </navigator>
+    <navigator url='#'>
+       <image src='/image/hongbao.gif'></image>
+    </navigator>
+    <navigator url='#'>
+      <image src='/image/shopcar.png'></image>
+    </navigator>
+    <navigator url='#'>
+      <image src='/image/noLogin.png'></image>
+    </navigator>
+  </view>
+
+</view>
