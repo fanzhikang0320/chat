@@ -1,0 +1,5 @@
+<view class='outer-view'>
+  <view class='inner-view view1'></view>
+  <view class='inner-view view2'></view>
+  <view class='inner-view view3'></view>
+</view>
