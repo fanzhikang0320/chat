@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/bind/bind",
     "pages/flex/flex",
     "pages/swiper/swiper",
     "pages/reg/reg",
@@ -7,14 +8,13 @@
     "pages/about/about",
     "pages/index/index",
     "pages/logs/logs"
-    
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "我的微信",
     "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": "true",
+    "enablePullDownRefresh": true,
     "backgroundColor": "red"
   },
   "tabBar": {
@@ -33,5 +33,6 @@
         "selectedIconPath": "images/22.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

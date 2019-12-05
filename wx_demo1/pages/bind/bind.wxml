@@ -1,0 +1,9 @@
+<!--pages/bind/bind.wxml-->
+<view>
+姓名：{{name}}
+</view>
+
+<view class="{{flag ? 'color-red' : 'color-green'}}">666</view>
+
+<view>{{info[1]}}</view>
+<view>{{infoList[0].className}}</view>
