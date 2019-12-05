@@ -1,0 +1,16 @@
+<!--pages/demo/demo.wxml-->
+<view wx:if="{{flag}}">
+this is demo page
+</view>
+
+<view>
+<view wx:if='{{score >= 90}}'>优秀</view>
+<view wx:elif='{{score >= 80}}'>良好</view>
+<view wx:else>及格</view>
+</view>
+
+
+<view>
+<view wx:for='{{studentList}}' wx:key='index'>{{item}}</view>
+
+</view>
