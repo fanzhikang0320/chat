@@ -1,0 +1,5 @@
+<!--pages/event/event.wxml-->
+
+<view bindtap='clickTap'>
+Click me
+</view>

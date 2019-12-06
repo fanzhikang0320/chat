@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/event/event",
     "pages/templateDemo/templateDemo",
     "pages/bind/bind",
     "pages/flex/flex",
