@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/templateDemo/templateDemo",
     "pages/bind/bind",
     "pages/flex/flex",
     "pages/swiper/swiper",
@@ -8,6 +9,7 @@
     "pages/about/about",
     "pages/index/index",
     "pages/logs/logs"
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",

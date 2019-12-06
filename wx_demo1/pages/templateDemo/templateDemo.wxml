@@ -1,0 +1,7 @@
+<!--pages/templateDemo/templateDemo.wxml-->
+
+<import src='/templates/studentInfo.wxml'/>
+
+<!-- 模板的使用 -->
+<template is='studentInfo' data='{{studentInfo}}'/>
+<include src='/templates/text_student.wxml'/>

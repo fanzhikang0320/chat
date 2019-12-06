@@ -1,0 +1,10 @@
+<template name='studentInfo'>
+<block wx:for='{{studentInfo}}' wx:key='index'>
+  <view>
+  name:{{item.name}}
+  </view>
+  <view>
+  age:{{item.age}}
+  </view>
+  </block>
+</template>
