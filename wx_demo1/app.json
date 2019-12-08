@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/eventDemo/eventDemo",
     "pages/event/event",
     "pages/templateDemo/templateDemo",
     "pages/bind/bind",
