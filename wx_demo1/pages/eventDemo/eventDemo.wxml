@@ -1,5 +1,20 @@
 <!--pages/eventDemo/eventDemo.wxml-->
 <view class='container'>
-  
-
+  <scroll-view scroll-x='true'>
+    <view class="menu">
+      <view class="nav">王者荣耀</view>
+      <view class="nav">王者荣耀</view>
+      <view class="nav">王者荣耀</view>
+      <view class="nav">王者荣耀</view>
+      <view class="nav">王者荣耀</view>
+      <view class="nav">王者荣耀</view>
+      <view class="nav">王者荣耀</view>
+    </view>
+    
+  </scroll-view>
+  <swiper style="height:{{Height}}rpx;width:{{Width}}rpx;padding:0;margin:0;">
+    <swiper-item style='background-color:blue;'></swiper-item>
+    <swiper-item style='background-color:pink;'></swiper-item>
+    <swiper-item style='background-color:yellow;'></swiper-item>
+  </swiper>
 </view>
