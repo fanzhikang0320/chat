@@ -1,20 +1,23 @@
 <!--pages/eventDemo/eventDemo.wxml-->
-<view class='container'>
-  <scroll-view scroll-x='true'>
-    <view class="menu">
-      <view class="nav">王者荣耀</view>
-      <view class="nav">王者荣耀</view>
-      <view class="nav">王者荣耀</view>
-      <view class="nav">王者荣耀</view>
-      <view class="nav">王者荣耀</view>
-      <view class="nav">王者荣耀</view>
-      <view class="nav">王者荣耀</view>
-    </view>
-    
-  </scroll-view>
-  <swiper style="height:{{Height}}rpx;width:{{Width}}rpx;padding:0;margin:0;">
-    <swiper-item style='background-color:blue;'></swiper-item>
-    <swiper-item style='background-color:pink;'></swiper-item>
-    <swiper-item style='background-color:yellow;'></swiper-item>
-  </swiper>
+<view>
+
+  <view class='search'>
+    <scroll-view scroll-x>
+      <view class="menu">
+        <block wx:for="{{navigatorList}}" wx:key='index'>
+          <navigator bindtap='campusActive' data-index='{{index}}' class='{{defaultNavColor[index]}}'>{{item.title}}</navigator>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+  
+  <view>
+    <swiper style="height:{{swiperRpxHeight}}rpx" current='{{currentTab}}'>
+      <swiper-item class='bg-red'>1111</swiper-item>
+      <swiper-item class='bg-blue'>2221</swiper-item>
+      <swiper-item class='bg-pink'>331</swiper-item>
+      <swiper-item class='bg-yellow'>14441</swiper-item>
+    </swiper>
+  
+  </view>
 </view>

@@ -1,5 +1,5 @@
 /* pages/eventDemo/eventDemo.wxss */
-page{
+.page{
   width:100%;
   height: 100%;
 }
@@ -14,10 +14,30 @@ page{
 
 .menu{
   display: flex;
-  /* flex-direction: row;
-  flex-wrap: nowrap; */
+  height: 50rpx;
+  white-space: nowrap;
+}
+.menu navigator{
+  margin: 0 14rpx;
+  font-weight: bolder;
+  height: 20rpx;
+}
+.bg-red{
+  background-color: red;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-pink{
+  background-color: pink;
+}
+.bg-yellow{
+  background-color: yellow;
 }
 
-.menu .nav{
-  background-color: pink;
+.color-pink{
+  color:pink;
+}
+.color-yellow{
+  color:yellow;
 }
