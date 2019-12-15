@@ -1,0 +1,17 @@
+<!--pages/video/video.wxml-->
+<view>
+<video src='{{src}}' controls id='myVideo1' class='video-cls'></video>
+<view>
+  <button bindtap='bindButtonTap'>获取视频</button>
+</view>
+</view>
+
+
+<view>
+  <video id='myVideo' src='' enable-danmu='true' danmu-list='{{danmuList}}' danmu-btn='true' controls='true' class='video-cls'></video>
+
+  <view>
+  <input bindblur='bindInputBlur'></input>
+    <button bindtap='bindSendDanmu'>发送弹幕</button>
+  </view>
+</view>
