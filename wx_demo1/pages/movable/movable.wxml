@@ -1,2 +1,23 @@
 <!--pages/movable/movable.wxml-->
-<text>pages/movable/movable.wxml</text>
+
+<view>任意方向移动</view>
+<movable-area class='bg-yellow'>
+  <movable-view direction='all' class="bg-green" inertia='true'></movable-view>
+</movable-area>
+<view>横向方向移动</view>
+<movable-area class='bg-yellow'>
+  <movable-view direction='horizontal' class="bg-green"></movable-view>
+</movable-area>
+<view>纵向方向移动</view>
+<movable-area class='bg-yellow'>
+  <movable-view class="bg-green" direction='vertical'></movable-view>
+</movable-area>
+<view>多个方块在一个区域内移动</view>
+<movable-area class='bg-yellow'>
+  <movable-view class="bg-green" direction='all'></movable-view>
+  <movable-view class="bg-green" direction='all'></movable-view>
+</movable-area>
+<view>固定在某一位置</view>
+<movable-area class='bg-yellow'>
+  <movable-view class="bg-green" x='40' y='50'></movable-view>
+</movable-area>

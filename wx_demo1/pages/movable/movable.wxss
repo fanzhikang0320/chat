@@ -1,1 +1,13 @@
 /* pages/movable/movable.wxss */
+.bg-green{
+  background-color: green;
+  width: 50rpx;
+  height: 50rpx;
+}
+.bg-yellow{
+  background-color: yellow;
+  width: 100%;
+  height: 300rpx;
+
+}
+
