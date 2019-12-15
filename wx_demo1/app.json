@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/video/video",
+    "pages/audio/audio",
     "pages/eventDemo/eventDemo",
     "pages/event/event",
     "pages/templateDemo/templateDemo",
@@ -11,8 +12,8 @@
     "pages/icon/icon",
     "pages/about/about",
     "pages/index/index",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/movable/movable"
   ],
   "window": {
     "backgroundTextStyle": "dark",

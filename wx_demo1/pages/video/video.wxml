@@ -12,6 +12,6 @@
 
   <view>
   <input bindblur='bindInputBlur'></input>
-    <button bindtap='bindSendDanmu'>发送弹幕</button>
+  <button bindtap='bindSendDanmu'>发送弹幕</button>
   </view>
 </view>
