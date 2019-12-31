@@ -1,0 +1,11 @@
+<!--pages/personCenter/personCenter.wxml-->
+<view class="container">
+<view class="page">
+<form bindsubmit="regFormSubmit" bindreset="regFormReset">
+    <view class="area"></view>
+
+
+</form>
+</view>
+
+</view>

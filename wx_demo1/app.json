@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/personCenter/personCenter",
     "pages/form/form",
     "pages/movable/movable",
     "pages/video/video",
@@ -15,7 +16,6 @@
     "pages/about/about",
     "pages/index/index",
     "pages/logs/logs"
-   
   ],
   "window": {
     "backgroundTextStyle": "dark",
