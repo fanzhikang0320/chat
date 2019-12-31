@@ -2,4 +2,41 @@
 <input type="text" name='id'></input>
 <button size="mini" form-type="submit">提交</button>
 <button size="mini" form-type="reset">重置</button>
+
+<view>picker滚动选择器</view>
+
+<picker mode="selector" range="{{country}}" value="{{index}}" bindchange="bindPickerChange">
+  <view>当前选择的是：{{country[index]}}</view>
+</picker>
+
+<view>多列选择器</view>
+<picker mode="multiSelector" bindchange="bindMultiPicker" bindcolumnchange="bindMultiPickerColumn" value="{{multiIndex}}" range="{{multiArray}}">
+
+<view>当前选择：{{mutiIndex}}</view>
+</picker>
+
+<view>时间选择器</view>
+<picker mode="time" start="7:00" end="21:00" bindchange="bindchangeTime">
+<view>当前选择时间：{{time}}</view>
+</picker>
+
+<view>日期选择器</view>
+<picker mode="date" start="2010-01-01" end="2020-12-31" bindchange="bindchangedate">
+<view>当前选择的日期：{{date}}</view>
+</picker>
+
+<view>省市区选择器</view>
+<picker mode="region" bindchange="bindchangeregion">
+  <view>当前选择地址：{{region}}</view>
+</picker>
+
+<view>slider滑动</view>
+<slider min="0" max="200" step="5" show-value="true" bindchange="bindchangeslider"></slider>
+
+<view>switch</view>
+<switch bindchange="bindchangeswitch1" checked="true">
+</switch>
+
+<switch bindchange="bindchangeswitch2"></switch>
+
 </form>
