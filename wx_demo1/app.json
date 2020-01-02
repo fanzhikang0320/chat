@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/doodle/doodle",
     "pages/map/map",
     "pages/camera/camera",
     "pages/personal/personal",
