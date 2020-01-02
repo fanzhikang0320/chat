@@ -1,6 +1,12 @@
 {
   "pages": [
+    "pages/opendata/opendata",
+    "pages/canvasDemo/canvasDemo",
+    "pages/doodle/doodle",
+    "pages/map/map",
+    "pages/camera/camera",
     "pages/personCenter/personCenter",
+    "pages/personal/personal",
     "pages/form/form",
     "pages/movable/movable",
     "pages/video/video",
@@ -15,7 +21,8 @@
     "pages/icon/icon",
     "pages/about/about",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/camera/showPhoto"
   ],
   "window": {
     "backgroundTextStyle": "dark",

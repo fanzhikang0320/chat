@@ -1,0 +1,2 @@
+<!--pages/camera/showPhoto.wxml-->
+<image src="{{photoSrc}}"></image>

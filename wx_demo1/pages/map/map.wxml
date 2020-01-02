@@ -1,0 +1,2 @@
+<!--pages/map/map.wxml-->
+<map id="myMap" longitude="113" latitude="23" scale="12"></map>

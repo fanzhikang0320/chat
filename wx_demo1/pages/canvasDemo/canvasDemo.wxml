@@ -1,0 +1,23 @@
+<!--pages/canvasDemo/canvasDemo.wxml-->
+<view class="container">
+  <!-- 画布区域 -->
+  <view class="canvas-area">
+    <!-- 同一个页面内canvas-id不可重复 -->
+    <canvas canvas-id="myCanvas" class="myCanvas" disable-scroll="false" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"></canvas>
+  </view>
+
+  <!-- 设置画笔区域 -->
+  <view class="canvas-tools">
+    <!-- 细笔 -->
+    <view class="box box1" bindtap="penSelect" data-param="5">细</view>
+    <!-- 粗笔 -->
+    <view class="box box2" bindtap="penSelect"data-param="15">粗</view>
+    <!-- 红色笔 -->
+    <view class="box box3" bindtap="colorSelect" data-param="red">红色</view>
+    <!-- 黄色笔 -->
+    <view class="box box4" bindtap="colorSelect" data-param='yellow'>黄色</view>
+    <!-- 橡皮 -->
+    <view class="box box5" bindtap="clearCanvas">橡皮</view>
+  </view>
+</view>
+
