@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/camera/camera",
+    "pages/personal/personal",
     "pages/form/form",
     "pages/movable/movable",
     "pages/video/video",
@@ -14,8 +16,8 @@
     "pages/icon/icon",
     "pages/about/about",
     "pages/index/index",
-    "pages/logs/logs"
-   
+    "pages/logs/logs",
+    "pages/camera/showPhoto"
   ],
   "window": {
     "backgroundTextStyle": "dark",

@@ -1,0 +1,5 @@
+/* pages/camera/camera.wxss */
+
+.display{
+  display: none;
+}

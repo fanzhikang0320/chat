@@ -1,0 +1,10 @@
+<!--pages/personal/personal.wxml-->
+<form bindsubmit="handleSubmit" bindreset="handleReset">
+  <input type="text" name='id'></input>
+  <button form-type="submit" size="mini" type="primary" plain="true">提交</button>
+  <button form-type="reset" size="mini" type="warn">重置</button>
+</form>
+
+<view>editor</view>
+
+<editor placeholder="This is text" show-img-toolbar="true" show-img-resize="true"></editor>

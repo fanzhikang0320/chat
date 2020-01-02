@@ -1,0 +1,9 @@
+<!--pages/camera/camera.wxml-->
+<camera mode="normal" device-position="front" flash="auto" bindinitdone="initdone" bindscancode="scancode" frame-size="large" style="width:100%;height:600rpx">
+
+<!-- <cover-image src="{{src}}"></cover-image>
+<cover-view></cover-view> -->
+</camera>
+<view>{{src}}</view>
+<image src="{{src}}" style="width:100%;height:400rpx;" class="{{show ? '' : 'display'}}"></image>
+<button type="primary" bindtap="takephoto">拍照</button>
