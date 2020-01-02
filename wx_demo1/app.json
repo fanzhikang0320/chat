@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/opendata/opendata",
     "pages/canvasDemo/canvasDemo",
     "pages/doodle/doodle",
     "pages/map/map",
