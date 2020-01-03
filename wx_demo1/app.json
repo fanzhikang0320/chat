@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/uploadFile/uploadFile",
     "pages/downloadFile/downloadFile",
     "pages/requestDemo/requestDemo",
     "pages/functionDemo/functionDemo",

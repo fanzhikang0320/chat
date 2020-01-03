@@ -1,0 +1,2 @@
+<!--pages/uploadFile/uploadFile.wxml-->
+<button bindtap="uploadFile">上传文件</button>
