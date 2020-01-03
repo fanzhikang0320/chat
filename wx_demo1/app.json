@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/requestDemo/requestDemo",
     "pages/functionDemo/functionDemo",
     "pages/opendata/opendata",
     "pages/canvasDemo/canvasDemo",
@@ -24,6 +25,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/camera/showPhoto"
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",

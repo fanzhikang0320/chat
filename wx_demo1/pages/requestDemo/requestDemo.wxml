@@ -1,0 +1,3 @@
+<!--pages/requestDemo/requestDemo.wxml-->
+<button bindtap="requestOpt">请求</button>
+<button bindtap="requestTaskAbort">终止</button>
