@@ -1,0 +1,4 @@
+<!--pages/functionDemo/functionDemo.wxml-->
+<input bindblur="functionString"></input>
+<button bindtap="isCanUse">提交</button>
+{{canUse}}
