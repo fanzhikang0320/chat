@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/downloadFile/downloadFile",
     "pages/requestDemo/requestDemo",
     "pages/functionDemo/functionDemo",
     "pages/opendata/opendata",

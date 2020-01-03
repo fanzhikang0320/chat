@@ -1,0 +1,5 @@
+<!--pages/downloadFile/downloadFile.wxml-->
+<progress show-info percent="{{per}}"></progress>
+<button bindtap="downloadFile">下载</button>
+<button bindtap="downloadFileAbort">取消下载</button>
+<image src="{{imgSrc}}" style="width:100%;height:500rpx;"></image>
