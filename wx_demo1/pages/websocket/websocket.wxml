@@ -1,0 +1,9 @@
+<!--pages/websocket/websocket.wxml-->
+<view class="page">
+  <rich-text class="content-area" nodes="{{responseString}}"></rich-text>
+  <view class="send-message-area">
+    <input class="send-message" bindblur="recodeMessage"></input>
+    <button bindtap="sendMessage">聊天</button>
+  </view>
+
+</view>
