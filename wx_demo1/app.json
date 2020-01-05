@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/recorderDemo2/recorderDemo2",
     "pages/recorderDemo/recorderDemo",
     "pages/websocket/websocket",
     "pages/chat/chat",
@@ -30,7 +31,6 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/camera/showPhoto"
-    
   ],
   "window": {
     "backgroundTextStyle": "dark",
