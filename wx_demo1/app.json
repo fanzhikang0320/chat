@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/recorder/recorder",
     "pages/recorderDemo2/recorderDemo2",
     "pages/recorderDemo/recorderDemo",
     "pages/websocket/websocket",
