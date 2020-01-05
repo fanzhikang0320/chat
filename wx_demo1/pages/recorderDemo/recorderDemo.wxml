@@ -1,0 +1,3 @@
+<!--pages/recorderDemo/recorderDemo.wxml-->
+<button bindtap="recordVoice">录音</button>
+<button bindtap="playVoice">播放</button>

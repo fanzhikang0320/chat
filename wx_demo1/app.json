@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/recorderDemo/recorderDemo",
     "pages/websocket/websocket",
     "pages/chat/chat",
     "pages/uploadFile/uploadFile",
