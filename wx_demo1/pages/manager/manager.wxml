@@ -1,0 +1,5 @@
+<!--pages/manager/manager.wxml-->
+<button type="primary" bindtap="playManager">播放</button>
+<button type="primary" bindtap="pauseManager">暂停</button>
+<button type="primary" bindtap="stopManager">停止</button>
+<button type="primary" bindtap="seekManager">跳转</button>

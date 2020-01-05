@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/manager/manager",
+    "pages/backgroundAudio/backgroundAudio",
     "pages/recorder/recorder",
     "pages/recorderDemo2/recorderDemo2",
     "pages/recorderDemo/recorderDemo",
@@ -32,6 +34,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/camera/showPhoto"
+   
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -58,5 +61,8 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio"
+  ]
 }
