@@ -1,0 +1,26 @@
+/* pages/baiduMusicDemo/baiduMusicDemo.wxss */
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.bgaudio{
+  width: 350rpx;
+  height: 350rpx;
+  margin-bottom:100rpx;
+}
+.control-view image{
+  height: 64rpx;
+  width: 64rpx;
+  margin: 30rpx; 
+}
+.control-view image.prev{
+  transform: rotateZ(120);
+}
+
+
+
+
+

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/baiduMusicDemo/baiduMusicDemo",
     "pages/manager/manager",
     "pages/backgroundAudio/backgroundAudio",
     "pages/recorder/recorder",
@@ -34,7 +35,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/camera/showPhoto"
-   
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -62,7 +63,5 @@
     ]
   },
   "sitemapLocation": "sitemap.json",
-  "requiredBackgroundModes": [
-    "audio"
-  ]
+  "requiredBackgroundModes": ["audio"]
 }

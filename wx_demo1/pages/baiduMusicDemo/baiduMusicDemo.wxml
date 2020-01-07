@@ -1,0 +1,10 @@
+<!--pages/baiduMusicDemo/baiduMusicDemo.wxml-->
+<view class="container">
+  <image class="bgaudio" src="{{changeImg ? '/images/11.png' : '/images/22.png' }}"></image>
+  <view class="control-view">
+    <image src="/images/prev.png" class="prev" bindtap="onPositionTap" data-how="0"></image>
+    <image src="/images/{{isPlaying ? 'pause' : 'start'}}.png" class="start" bindtap="onAudioTap"></image>
+    <!-- <image src="/images/pause.png" class="pause"></image> -->
+    <image src="/images/next.png" class="next" bindtap="onPositionTap" data-how="1"></image>
+  </view>
+</view>
