@@ -1,0 +1,18 @@
+<!--pages/webFontLoad/webFontLoad.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-body-info display-area {{loaded ? 'font-loaded' : ''}}">
+        <text wx:if="{{!loaded}}">load fonts</text>
+        <text wx:else>font is loaded</text>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button type="primary" bindtap="loadFontFace">加载字体</button>
+    </view>
+  </view>
+
+</view>
+
+
+

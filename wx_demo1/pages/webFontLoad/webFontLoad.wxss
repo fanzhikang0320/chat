@@ -1,0 +1,17 @@
+/* pages/webFontLoad/webFontLoad.wxss */
+.page-body-info{
+  align-items: center;
+  padding: 200rpx 0rpx;
+}
+.display-area{
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+}
+.font-loaded{
+  font-family: 'Bitstream Vera Serif Bold';
+}
+
+
+
+
