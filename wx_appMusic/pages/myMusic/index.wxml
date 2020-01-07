@@ -1,0 +1,34 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <text class="music-category-text">最近添加</text>
+  <view class="big-photo-list">
+    <view class="big-photo-item" wx:for="{{songList}}" wx:key="index">
+      <image src="{{item.coverImgUrl}}" class="photo"></image>
+      <text class="music-name">{{item.name}}</text>
+      <text class="music-author">{{item.singer}}</text>
+    </view>
+  </view>
+
+  <!-- 播放列表 -->
+  <view class="music-group-selector" bindtap="actionSheetTap">
+    <text class="music-group-selector-text">{{musicGroupName}}</text>
+    <image class="music-group-selector-arr" src="/image/down.png"></image>
+  </view>
+
+  <view >
+  
+  </view>
+
+
+
+</view>
+
+<action-sheet hidden="{{actionSheetHidden}}">
+  <block wx:for="{{actionSheetItems}}">
+    <action-sheet-item>{{item}}</action-sheet-item>
+  </block>
+
+</action-sheet>
+
+
+
