@@ -1,0 +1,6 @@
+/* pages/index/index.wxss */
+.img{
+  width: 20vw;
+  height: 20vh;
+}
+
