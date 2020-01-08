@@ -17,7 +17,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.10.0",
 	"appid": "wx9cbd793d2d9a8800",
-	"projectname": "appMusic",
+	"projectname": "wx_appMusic",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

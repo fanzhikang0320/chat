@@ -14,18 +14,39 @@
     <text class="music-group-selector-text">{{musicGroupName}}</text>
     <image class="music-group-selector-arr" src="/image/down.png"></image>
   </view>
-
-  <view >
-  
+  <!-- 播放列表 -->
+  <view class="list-container">
+    <import src="/template/music-play-list.wxml"/>
+    <import src="/template/songs-list.wxml"/>
+    <import src="/template/author-list.wxml"/>
+    <import src="/template/album-list.wxml"/>
+    <template is="{{listTemplateName}}" data="{{templateData}}"></template>
   </view>
-
-
 
 </view>
 
-<action-sheet hidden="{{actionSheetHidden}}">
+<!-- 播放区域 -->
+
+<view class="play-bar">
+  <view class="play-bar-image-container">
+    <image src="{{playBar.coverImgUrl}}" class="play-bar-image"></image>
+    <text class="play-bar-text">{{playBar.name}}</text>
+    <block wx:if="{{playing == false}}">
+      <image class="play-bar-button" src="/image/start.png"></image>
+    </block>
+    <block wx:if="{{playing == true}}">
+      <image class="play-bar-button" src="/image/pause.png"></image>
+    </block>
+
+  </view>
+</view>
+
+
+
+<!-- 底部tabBar -->
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
   <block wx:for="{{actionSheetItems}}">
-    <action-sheet-item>{{item}}</action-sheet-item>
+    <action-sheet-item bindtap="bindItemTap" data-sheetItem="{{item}}">{{item}}</action-sheet-item>
   </block>
 
 </action-sheet>

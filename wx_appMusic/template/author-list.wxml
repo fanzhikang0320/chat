@@ -1,0 +1,9 @@
+<template name="author-list">
+  <view class="author-list">
+    <view class="author-item" wx:for="{{templateData}}">
+      <image src="{{item.image}}" class="author-image"></image>
+      <view class="author-text">{{item.singer}}</view>
+    </view>
+  </view>
+
+</template>
