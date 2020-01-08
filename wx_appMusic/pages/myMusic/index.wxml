@@ -2,7 +2,7 @@
 <view class="container">
   <text class="music-category-text">最近添加</text>
   <view class="big-photo-list">
-    <view class="big-photo-item" wx:for="{{songList}}" wx:key="index">
+    <view class="big-photo-item" wx:for="{{songList}}" wx:key="index" bindtap="play" data-number="{{index}}">
       <image src="{{item.coverImgUrl}}" class="photo"></image>
       <text class="music-name">{{item.name}}</text>
       <text class="music-author">{{item.singer}}</text>
@@ -32,10 +32,10 @@
     <image src="{{playBar.coverImgUrl}}" class="play-bar-image"></image>
     <text class="play-bar-text">{{playBar.name}}</text>
     <block wx:if="{{playing == false}}">
-      <image class="play-bar-button" src="/image/start.png"></image>
+      <image class="play-bar-button" src="/image/start.png" bindtap="play" data-number="{{playSongsNum}}"></image>
     </block>
     <block wx:if="{{playing == true}}">
-      <image class="play-bar-button" src="/image/pause.png"></image>
+      <image class="play-bar-button" src="/image/pause.png" bindtap="pause" data-number="{{playSongsNum}}"></image>
     </block>
 
   </view>

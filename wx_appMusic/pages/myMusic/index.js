@@ -103,7 +103,8 @@ Page({
     playBar:{
       coverImgUrl:'/image/photo.jpg',
       name:'最甜情歌'
-    }
+    },
+    playSongsNum:''
   },
   /**
    * 列表选择
@@ -159,6 +160,50 @@ Page({
       actionSheetHidden: !this.data.actionSheetHidden
     });
   },
+  /**
+   * 点击唱片播放音乐
+   */
+play (e) {
+  let that = this;
+  let num = e.currentTarget.dataset.number;
+  let res = this.data.songList[num];
+
+  this.setData({
+    //改变播放轴
+    playBar:res,
+    playSongsNum:num,
+    playing:true
+  });
+
+  //播歌
+  wx.playBackgroundAudio({
+    dataUrl: res.dataUrl,
+    name:res.name,
+    singer:res.singer,
+    coverImgUrl:res.coverImgUrl,
+    complete (res) {
+      
+    }
+  })
+},
+
+/**
+ * 暂停播放
+ */
+pause (e) {
+  let that = this;
+  wx.pauseBackgroundAudio({
+    success () {
+      that.setData({
+        playing:false
+      });
+    }
+  });
+},
+
+
+
+
   /**
    * 生命周期函数--监听页面加载
    */
