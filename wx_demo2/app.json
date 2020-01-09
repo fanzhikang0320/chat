@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/storage/storage",
     "pages/file/file",
     "pages/loading/loading"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
