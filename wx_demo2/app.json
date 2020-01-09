@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/compass/index",
     "pages/transmitData/transmitData",
     "pages/storage/storage",
     "pages/file/file",
     "pages/loading/loading",
-    "pages/navTarget/navTarget"
+    "pages/navTarget/navTarget",
+    "pages/compass/compass"
   ],
   "window": {
     "backgroundTextStyle": "light",

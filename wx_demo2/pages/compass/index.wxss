@@ -1,0 +1,27 @@
+/* pages/compass/index.wxss */
+.container{
+  background-color: rgb(33, 39, 128);
+  font-family: 'microsoft yahei'
+}
+.text{
+  color: #fff;
+  font-size: 26rpx;
+  text-align: center;
+  padding-top: 10vh;
+}
+.text text{
+  display: flex;
+  flex-direction: column;
+  height: 40rpx;
+  line-break: 40rpx;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tip-btn{
+  width: 80%;
+  margin-top: 10vh;
+}
