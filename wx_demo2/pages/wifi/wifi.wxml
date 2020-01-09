@@ -1,0 +1,27 @@
+<!--pages/wifi/wifi.wxml-->
+<view class="container">
+  <view class="text">一键链接wifi</view>
+  <form bindsubmit="connectWifi">
+    <view class="form">
+      <view class="section">
+        <text>wifi账户名</text>
+        <input placeholder="请输入wifi账号" name="wifiName"></input>
+      </view>
+
+      <view class="section">
+        <text>wifi密码</text>
+        <input placeholder="请输入wifi密码" class="wifiPassword" type="password" name="wifiPassword"></input>
+      </view>
+
+      <button form-type="submit" type="primary">一键连接</button>
+      <button bindtap="searchWifi" type="primary">搜索附近wifi</button>
+    </view>
+    <view>
+      <block wx:for="{{wifiList}}">
+        <view>
+          <text>{{item.SSID}}</text>
+        </view>
+      </block>
+    </view>
+  </form>
+</view>
