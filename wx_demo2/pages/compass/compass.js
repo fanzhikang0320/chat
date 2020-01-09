@@ -24,7 +24,7 @@ Page({
       that.setData({
         angle:direction,
         rotate:360 - radios,
-        direction:this.check(radios)
+        direction:that.check(radios)
       });
     });
     //判断手机是否有罗盘
@@ -51,7 +51,7 @@ Page({
       return '东南'
     } else if (165 < res && res <= 195) {
       return '正南'
-    } else if (195 < res && i <= 255) {
+    } else if (195 < res && res <= 255) {
       return '西南'
     } else if (255 < res && res <= 285) {
       return '正西'
