@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/transmitData/transmitData",
     "pages/storage/storage",
     "pages/file/file",
-    "pages/loading/loading"
-    
+    "pages/loading/loading",
+    "pages/navTarget/navTarget"
   ],
   "window": {
     "backgroundTextStyle": "light",

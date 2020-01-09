@@ -1,0 +1,8 @@
+<!--pages/transmitData/transmitData.wxml-->
+<view class="container">
+  <button bindtap="storage">缓存带参跳转</button>
+  <navigator url="/pages/navTarget/navTarget?title=hello">navigator跳转</navigator>
+  <button bindtap="wxApi">api传值</button>
+</view>
+
+

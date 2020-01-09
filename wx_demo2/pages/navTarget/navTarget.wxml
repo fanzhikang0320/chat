@@ -1,0 +1,4 @@
+<!--pages/navTarget/navTarget.wxml-->
+<text>storage:{{paramsValue}}</text>
+<view>navigator:{{navigatorValue}}</view>
+<view>apiValue:{{apiValue.val}} and {{apiValue.name}}</view>
