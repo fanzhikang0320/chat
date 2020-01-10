@@ -1,0 +1,9 @@
+/* pages/shearPlate/shearPlate.wxss */
+.container {
+  text-align: center;
+}
+text {
+  font-size: 5vh;
+}
+
+

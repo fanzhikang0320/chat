@@ -1,0 +1,6 @@
+<!--pages/shearPlate/shearPlate.wxml-->
+<view class="container">
+  <text>{{detail}}</text>
+<button bindtap="copy">一键复制</button>
+<button bindtap="show">显示剪切内容</button>
+</view>
