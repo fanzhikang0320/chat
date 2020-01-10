@@ -1,0 +1,77 @@
+/* pages/accelerated/accelerated.wxss */
+.panel-root {
+  height: 100%;
+  background-color: #f40;
+}
+
+.view-top{
+  position: absolute;
+  display: block;
+  height: 40%;
+  width: 100%;
+  background-color: rgb(27, 132, 230);
+  text-align: center;
+}
+.view-bottom {
+  position: absolute;
+  top: 40%;
+  height: 60%;
+  width: 100%;
+  background-color: blue;
+  text-align: center;
+}
+
+.img-top {
+  position: absolute;
+  bottom: 0;
+  width: 8rem;
+  height: 7rem;
+  margin-bottom: -3.5rem;
+  margin-left: -4rem;
+  clip: rect(0,8rem,3.5rem,0)
+}
+
+.img-bottom {
+  position: absolute;
+  top: -100rpx;
+  width: 8rem;
+  height: 7rem;
+  margin-bottom: -3.5rem;
+  margin-left: -4rem;
+  clip: rect(3.5rem,8rem,400rpx,0)
+}
+.panel-result {
+  padding: 1rem;
+  width: 85%;
+  background-color: #fff;
+  border-radius: 30rpx;
+  position: absolute;
+  top: 250rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* .panel-loading {
+  display: inline-block;
+} */
+.btn-test {
+  position: absolute;
+  bottom: 0;
+  margin: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.panel-bottom {
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  color: white;
+  text-align: center;
+}
+.img-loading {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+
+

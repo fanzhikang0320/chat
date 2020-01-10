@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/accelerated/accelerated",
     "pages/wifi/wifi",
     "pages/compass/index",
     "pages/transmitData/transmitData",

@@ -1,0 +1,27 @@
+<!--pages/accelerated/accelerated.wxml-->
+<view class="panel-root">
+  <view class="view-top" animation="{{animation1}}">
+    <image class="img-top" src="{{imgUrl}}"></image>
+  </view> 
+
+  <view class="view-bottom" animation="{{animation2}}">
+  <image class="img-bottom" src="{{imgUrl}}"></image>
+
+  <view class="panel-bottom" style="display:{{hasResult == 0 ? 'block' : 'none'}}">
+    <view class="panel-loading">
+      <image class="img-loading" src="{{loading}}"></image>
+    </view>
+    <text class="text-label">正在搜索同一时刻摇晃手机的人</text>
+  </view>
+
+  <view class="panel-result" style="display:{{hasResult == 1 ? 'block' : 'none'}}">
+    <text>哈哈，其实就是只有我一个人</text>
+  </view>
+
+  <button class="btn-test" bindtap="startAnimation">测试</button>
+  </view>
+
+</view>
+
+
+
