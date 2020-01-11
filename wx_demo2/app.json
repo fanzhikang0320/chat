@@ -1,5 +1,6 @@
 {
   "pages": [
+      "pages/deviceMotionListening/deviceMotionListening",
     "pages/phone/phone",
     "pages/battery/battery",
     "pages/captureScreen/captureScreen",
