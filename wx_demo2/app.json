@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/captureScreen/captureScreen",
     "pages/scan/scan",
     "pages/shearPlate/shearPlate",
     "pages/accelerated/accelerated",

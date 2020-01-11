@@ -1,0 +1,7 @@
+<!--pages/captureScreen/captureScreen.wxml-->
+<view class="container">
+  <view class="page-section">
+    <text>{{userCaptureScreen}}</text>
+  </view>
+  <button bindtap="addPhone" type="primary">添加手机联系人</button>
+</view>
