@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/phone/phone",
+    "pages/battery/battery",
     "pages/captureScreen/captureScreen",
     "pages/scan/scan",
     "pages/shearPlate/shearPlate",

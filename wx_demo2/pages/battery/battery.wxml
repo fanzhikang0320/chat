@@ -1,0 +1,12 @@
+<!--pages/battery/battery.wxml-->
+<view class="container">
+  <view class="page-section">
+     <view class="page-section-title">电量监控</view>
+     <view class="page-section-area">
+        <view>电池电量：{{batteryInfo.level}}</view>
+        <view>正在充电：{{batteryInfo.isCharging ? 'Yes' : 'No'}}</view>
+     </view>
+
+
+  </view>
+</view>

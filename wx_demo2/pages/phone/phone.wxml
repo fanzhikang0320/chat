@@ -1,0 +1,7 @@
+<!--pages/phone/phone.wxml-->
+<view class="container">
+  <form bindsubmit="callPhone">
+    <input placeholder="输入电话号码" name="phone"></input>
+    <button form-type="submit" type="primary">拨打电话</button>
+  </form>
+</view>
