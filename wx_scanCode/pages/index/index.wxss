@@ -1,0 +1,19 @@
+/* pages/index/index.wxss */
+.scanResult{
+  padding-top: 50rpx;
+}
+.scanResult  text {
+  word-break: break-all;
+}
+.scanResult button{
+  display: inline-block;
+
+}
+.page-body-spacing {
+  margin-top: 25rpx;
+}
+
+.weui-form-preview-value-in-db {
+  color: #333;
+}
+

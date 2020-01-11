@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/code/code"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "二维码生成",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "扫一扫",
+        "iconPath": "/image/sao.png",
+        "selectedIconPath": "/image/currentSao.png"
+      },
+      {
+        "pagePath": "pages/code/code",
+        "text": "二维码",
+        "iconPath": "/image/scanCode.png",
+        "selectedIconPath": "/image/currentScanCode.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "历史",
+        "iconPath": "/image/history.png",
+        "selectedIconPath": "/image/currentHistory.png"
+      }
+    ]
+  },
+  "debug":true
+  
+}
