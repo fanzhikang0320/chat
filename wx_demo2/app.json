@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/submitWorkerOrder/submitWorkerOrder",
     "pages/mutual/mutual",
     "pages/share/share",
     "pages/animation/animation",
@@ -17,7 +18,8 @@
     "pages/file/file",
     "pages/loading/loading",
     "pages/navTarget/navTarget",
-    "pages/compass/compass"
+    "pages/compass/compass",
+    "pages/submitWorkerOrder/workerOrder/workerOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",

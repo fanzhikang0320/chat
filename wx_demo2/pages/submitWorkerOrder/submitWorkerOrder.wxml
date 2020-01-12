@@ -1,0 +1,18 @@
+<!--pages/submitWorkerOrder/submitWorkerOrder.wxml-->
+<view class="container">
+  <view class="page-section" hidden="{{isShow}}">
+    <text class="page-section-title">在线客服-提交工单</text>
+    <text>在线客服-人工服务时间为9:00-18：00现在您有问题可以有如下反馈：</text>
+    <button type="primary" bindtap="userOpt">用户操作</button>
+  </view>
+
+  <view class="page-section" hidden="{{!isShow}}">
+    <view class="page-section-title">{{title}}</view>
+    <text>{{content}}</text>
+    <button type="primary" bindtap="urgent">催办进度</button>
+    <button type="warn" bindtap="clearWorkerOrder">撤销工单</button>
+  </view>
+</view>
+
+
+

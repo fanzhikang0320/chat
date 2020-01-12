@@ -1,0 +1,39 @@
+/* pages/submitWorkerOrder/workerOrder/workerOrder.wxss */
+.container {
+  width: 100%;
+  background-color: #bbb;
+  font-size: 5vw;
+}
+.page-section {
+  background-color: white;
+  width: 90%;
+  margin: 10rpx auto;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.page-section text {
+  line-height: 5vh;
+}
+.page-section-title{
+  margin-bottom: 80rpx;
+}
+.page-section  button {
+  width: 100%;
+  margin: 20rpx 0;
+}
+.page-line {
+  text-align: left;
+}
+
+.page-line input {
+  border: 1rpx solid #bbb;
+  height: 5vh;
+}
+.page-line textarea {
+  border: 2rpx solid #bbb;
+  height: 160rpx;
+  width: 100%;
+}

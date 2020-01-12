@@ -52,6 +52,13 @@
 					"id": -1,
 					"name": "compass",
 					"pathName": "pages/compass/compass",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "worker",
+					"pathName": "pages/submitWorkerOrder/workerOrder/workerOrder",
 					"scene": null
 				}
 			]
