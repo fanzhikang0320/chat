@@ -1,0 +1,5 @@
+<!--pages/mutual/mutual.wxml-->
+<button bindtap="showToastEvent" type="primary">showToast(消息提示框)</button>
+<button type="primary" bindtap="showModalEvent">showModal（模态对话框）</button>
+<button type="primary" bindtap="showLoadingEvent">showLoading(loading提示框)</button>
+<button type="primary" bindtap="showActionSheetEvent">showActionSheet(操作菜单显示)</button>

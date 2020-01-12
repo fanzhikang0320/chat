@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/mutual/mutual",
     "pages/share/share",
     "pages/animation/animation",
     "pages/deviceMotionListening/deviceMotionListening",

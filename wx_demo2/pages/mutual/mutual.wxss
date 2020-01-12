@@ -1,0 +1,4 @@
+/* pages/mutual/mutual.wxss */
+button{
+  margin: 10rpx 0;
+}
