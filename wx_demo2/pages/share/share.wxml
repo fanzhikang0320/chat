@@ -1,0 +1,2 @@
+<!--pages/share/share.wxml-->
+<button open-type="share">点我分享</button>

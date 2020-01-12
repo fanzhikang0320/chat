@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/share/share",
     "pages/animation/animation",
     "pages/deviceMotionListening/deviceMotionListening",
     "pages/phone/phone",
