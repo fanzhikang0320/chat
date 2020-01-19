@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/goBackTop/goBackTop",
     "pages/submitWorkerOrder/submitWorkerOrder",
     "pages/mutual/mutual",
     "pages/share/share",

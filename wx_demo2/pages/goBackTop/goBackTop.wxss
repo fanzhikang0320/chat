@@ -1,0 +1,23 @@
+/* pages/goBackTop/goBackTop.wxss */
+.page {
+  height: 1600rpx;
+  width: 1000%;
+  background-color: #f40;
+}
+
+.gotop {
+  position: fixed;
+  right: 30rpx;
+  bottom: 50rpx;
+  height: 60rpx;
+  width: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  color: #333;
+  font-size: 23rpx;
+  font-weight: bold;
+  background-color: #ccc;
+}

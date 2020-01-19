@@ -1,0 +1,7 @@
+<!--pages/goBackTop/goBackTop.wxml-->
+<view class="page">
+  <text>I'm top</text>
+</view>
+<view hidden="{{!cangotop}}" class="gotop">
+<view bindtap="goTop">回到顶部</view>
+</view>
