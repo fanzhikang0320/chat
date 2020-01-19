@@ -1,0 +1,5 @@
+/* pages/dynamicLoad/dynamicLoad.wxss */
+.container {
+  padding: 0;
+}
+

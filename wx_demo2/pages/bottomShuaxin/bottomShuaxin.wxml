@@ -1,0 +1,12 @@
+<!--pages/bottomShuaxin/bottomShuaxin.wxml-->
+<view class="container">
+  <view class="page-section">
+    <block wx:for="{{newList}}" wx:key="index">
+      <view class="newListItem">
+        <text class="newListItemTitle">{{item}}</text>
+        <text class="flag">></text>
+      </view>
+    </block>
+  </view>
+</view>
+

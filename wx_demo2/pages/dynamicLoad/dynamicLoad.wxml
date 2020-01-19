@@ -1,0 +1,16 @@
+<!--pages/dynamicLoad/dynamicLoad.wxml-->
+<view class="container">
+  <!-- 垂直滚动 -->
+  <scroll-view scroll-y style="height:'{{scrollHeight}}'px" class="list">
+    <view class="item" wx:for="{{list}}">
+      <image class="img" src="{{item.pic}}"></image>
+      <view class="text">
+        <text class="title">{{item.name}}</text>
+        <text class="description">{{item.shortDescription}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view>
+    <loading hidden="{{hidden}}" bindchange="loadingChange">加载中...</loading>
+  </view>
+</view>
