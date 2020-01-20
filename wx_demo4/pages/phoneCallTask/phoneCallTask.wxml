@@ -1,0 +1,22 @@
+<!--pages/phoneCallTask/phoneCallTask.wxml-->
+<view class="container">
+  <view class="row">
+    <input placeholder="请输入姓名" bindinput="bindNameInput"></input>
+  </view>
+  <view class="row">
+    <input placeholder="请输入手机号" bindinput="bindPhoneInput"></input>
+  </view>
+  <view class="row">
+    <input placeholder="请输入验证码" bindinput="bindCodeInput" class="yanCode" style="width:70%"></input>
+    <button class="codeBtn" bindtap="getCode" hidden="{{hidden}}" disabled="{{btnDisabled}}">{{btnValue}}</button>
+  </view>
+  <view>
+    <button class="subBtn" bindtap="save">注册</button>
+  </view>
+  <!-- 打电话 -->
+  <view class="row">
+    <input placeholder="请输入拨打电话号码" bindinput="callPhoneInput"></input>
+  </view>
+  <button class="subBtn" bindtap="makeCallPhone">拨打</button>
+</view>
+
