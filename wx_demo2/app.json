@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/wxLogin/wxLogin",
     "pages/goBackTop/goBackTop",
     "pages/submitWorkerOrder/submitWorkerOrder",
     "pages/mutual/mutual",

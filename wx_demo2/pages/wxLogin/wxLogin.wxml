@@ -1,0 +1,7 @@
+<!--pages/wxLogin/wxLogin.wxml-->
+<button type="primary" bindtap="wxLogin">登录</button>
+<button type="primary" bindtap="getCompInfo">获取公司信息</button>
+<button type="primary" bindtap="getAppId">获取appId</button>
+<button type="primary" bindtap="getUserInfo" open-type="getUserInfo">获取用户信息</button>
+
+
