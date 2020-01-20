@@ -1,0 +1,8 @@
+<!--pages/shuaxin/shuaxin.wxml-->
+
+<view class="container">
+  <view class="page-section">
+    <image src="{{imgUrl}}"></image>
+    <text>{{imgTitle}}</text>
+  </view>
+</view>

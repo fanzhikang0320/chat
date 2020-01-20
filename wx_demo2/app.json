@@ -1,6 +1,12 @@
 {
   "pages": [
+<<<<<<< HEAD
     "pages/wxLogin/wxLogin",
+=======
+    "pages/dynamicLoad/dynamicLoad",
+    "pages/bottomShuaxin/bottomShuaxin",
+    "pages/shuaxin/shuaxin",
+>>>>>>> 19f01691ce6fa54b9a52358940efc6955e72f584
     "pages/goBackTop/goBackTop",
     "pages/submitWorkerOrder/submitWorkerOrder",
     "pages/mutual/mutual",
@@ -27,7 +33,9 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ccc"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
