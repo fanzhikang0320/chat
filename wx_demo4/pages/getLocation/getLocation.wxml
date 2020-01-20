@@ -1,0 +1,9 @@
+<!--pages/getLocation/getLocation.wxml-->
+<view class="container">
+  <button bindtap="getLocation">获取当前位置</button>
+  <view>
+    当前位置：{{locationPath}}
+  </view>
+  <button bindtap="getInvoiceTitle">获取发票信息</button>
+  <button bindtap="chooseInvoice">获取已经开具过的发票信息</button>
+</view>

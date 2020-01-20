@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/getLocation/getLocation",
     "pages/index/index"
   ],
   "window": {
@@ -9,5 +10,10 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "permission":{
+    "scope.userLocation":{
+      "desc":"获取位置信息将用于小程序"
+    }
+  }
 }
