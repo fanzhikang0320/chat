@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="page-area area-bg">
+    <view class="row">
+      <picker mode="selector" range="{{expressList}}" value="{{index}}" bindchange="bindPickerChange">
+        <view class="expressCompany">
+          当前选择：{{expressList[index]}}
+        </view>
+      </picker>
+    </view>
+    <view class="row">
+      <text>快递单号</text>
+      <input placeholder="输入快递单号" bindinput="getOrderCode"></input>
+    </view>
+    <button type="primary" bindtap="searchOrderInfo">点击查询</button>
+
+  </view>
+  <view class="current-area">
+    <view> 当前状态：{{current.context}}</view>
+    <view>时间：{{current.time}}</view>
+  </view>
+  <view wx:for="{{orderCodeList}}">
+    <view>状态：{{item.context}}</view>
+    <view>时间：{{item.time}}</view>
+  </view>
+</view>
