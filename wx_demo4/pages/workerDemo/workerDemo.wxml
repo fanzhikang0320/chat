@@ -1,0 +1,5 @@
+<!--pages/workerDemo/workerDemo.wxml-->
+<view class="container">
+  <view>this is worker demo</view>
+  <button bindtap="touch" type="primary">触发主线程</button>
+</view>

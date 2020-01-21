@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/selectQuery/selectQuery",
+    "pages/workerDemo/workerDemo",
     "pages/phoneCallTask/phoneCallTask",
     "pages/postMessage/postMessage",
     "pages/getLocation/getLocation",
@@ -17,5 +19,6 @@
     "scope.userLocation": {
       "desc": "获取位置信息将用于小程序"
     }
-  }
+  },
+  "workers": "workers"
 }

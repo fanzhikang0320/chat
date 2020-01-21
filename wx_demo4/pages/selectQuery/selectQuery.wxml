@@ -1,0 +1,4 @@
+<!--pages/selectQuery/selectQuery.wxml-->
+
+<view id="mySelectQuery">This is my selectQuery</view>
+<button bindtap="query" type="primary">查询</button>
