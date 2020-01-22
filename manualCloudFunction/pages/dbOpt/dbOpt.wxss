@@ -1,0 +1,38 @@
+/* pages/dbOpt/dbOpt.wxss */
+.page-body {
+  width: 100%;
+  height:100%;
+  background-color: wheat;
+}
+.page-section {
+  width: 90%;
+  background-color: white;
+  border-radius: 10rpx;
+  margin: 20rpx auto;
+  padding: 20rpx;
+}
+.page-section-title {
+  text-align: center;
+  font-size: 40rpx;
+}
+.page-section-content {
+  width: 100%;
+}
+.section-row {
+  display: flex;
+  height: 100rpx;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 100rpx;
+
+}
+.section-row input {
+  margin-top: 30rpx;
+}
+.inputStyle {
+  background-color: rgb(66, 211, 255);
+  
+  height: 35rpx;
+  border-radius: 5rpx;
+  margin-left: 10rpx;
+}

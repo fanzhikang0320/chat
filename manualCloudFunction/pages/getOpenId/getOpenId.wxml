@@ -1,0 +1,2 @@
+<!--pages/getOpenId/getOpenId.wxml-->
+<button bindtap="getOpenId" type="primary">获取openId</button>
