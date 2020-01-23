@@ -1,0 +1,36 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">数据库录入操作</view>
+      <view class="page-section-content">
+        <button type="primary" bindtap="dbAdd">数据库录入</button>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-title">单数据查询操作</view>
+      <view class="page-section-content">
+        <button type="primary" bindtap="dbSelectOne">点击查询</button>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-title">多数据查询操作</view>
+      <view class="page-section-content">
+        <button type="primary" bindtap="dbSelectMulti">点击查询</button>
+      </view>
+    </view>
+    <view class="page-section">
+      <view class="page-section-title">云函数的简单调用</view>
+      <view class="page-section-content">
+        <button bindtap="cloudFun" type="primary">云函数a和b之和</button>
+      </view>
+    </view>
+
+
+
+  </view>
+</view>
+
+
+
+
