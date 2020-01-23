@@ -1,0 +1,11 @@
+<!--pages/userCenter/userCenter.wxml-->
+<view class="container">
+  <view class="page-area">
+    <image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1208538952,1443328523&fm=26&gp=0.jpg"></image>
+    <view class="page-section">
+      <text>嗨！{{name}}，</text>
+      <text>欢迎来到个人空间</text>
+    </view>
+  </view>
+
+</view>
