@@ -83,9 +83,41 @@ Page({
       }
     });
   },
-
-
-
+/**
+ * 删除云端文件
+ */
+  deleteImg (e) {
+    let cloudId = e.detail.value.cloudId;
+    let fileListId = [];
+    fileListId.push(cloudId);
+    wx.cloud.deleteFile({
+      fileList: fileListId,
+      success: res => {
+        wx.showToast({
+          title: '删除成功！',
+          duration: 1000
+        })
+      },
+      fail: res => {
+        console.log('error',res);
+      }
+    });
+  },
+/**
+ * 将云端存储路径转换为临时路径
+ */
+  getTempFilePath () {
+    let fileListId = ['cloud://cloud990320.636c-cloud990320-1301108100/image1.png'];
+    wx.cloud.getTempFileURL({
+      fileList: fileListId,
+      success: res => {
+        console.log(res);
+      },
+      fail: res => {
+        console.log('error',res);
+      }
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

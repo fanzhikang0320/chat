@@ -11,4 +11,14 @@
     </form>
     <image src="{{filePath}}"></image>
   </view>
+   <view class="row">
+    <form bindsubmit="deleteImg">
+      <input placeholder="输入云存储id" name="cloudId"></input>
+      <button type="primary" form-type="submit">删除云图片</button>
+    </form>
+  </view>
+
+  <view class="row">
+    <button bindtap="getTempFilePath" type="primary">转换临时文件路径</button>
+  </view>
 </view>
