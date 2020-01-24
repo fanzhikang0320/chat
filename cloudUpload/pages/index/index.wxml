@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+
+<view class="container">
+  <view class="row">
+    <button type="primary" bindtap="uploadImg">上传图片至云   </button>
+  </view>
+  <view class="row">
+    <form bindsubmit="downloadImg">
+      <input placeholder="输入云存储id" name="cloudId"></input>
+      <button type="primary" form-type="submit">下载云图片</button>
+    </form>
+    <image src="{{filePath}}"></image>
+  </view>
+</view>
