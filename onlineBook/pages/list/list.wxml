@@ -1,0 +1,12 @@
+<!--pages/list/list.wxml-->
+<view class="container">  
+  <block wx:for="{{dataList}}" wx:key="index">
+   <view class="page-section">
+      <text class="item-name">上传人：{{item.name}}</text>
+      <text class="item-name">time: {{item.time}}</text>
+      <image src="{{item.imgUrl}}" class="img"></image>
+      <image class="delete" src="/source/delete.png" catchtap="deleteImg" data-id="{{item._id}}" data-imgUrl="{{item.imgUrl}}"></image>
+    </view> 
+  </block>
+  <image src="/source/share.png" class="fabu" catchtap="qufabu"></image>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="page-section">
+    <button bindtap="upload" type="primary">上传图片</button>
+    <view class="imgBox" hidden="{{showImg}}">
+      <block wx:for="{{imgList}}" wx:key="index">
+        <image src="{{item}}" class="showImg"></image>
+      </block>
+    </view>
+    
+  </view>
+
+</view>
