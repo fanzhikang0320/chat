@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="title">电视节目列表</view>
+  <block wx:for="{{channelLists}}" wx:key="index">
+    <view class="page-section">
+      <view class="row" bindtap="goToTVChannel" data-id="{{item._id}}" data-channelName="{{item.channelName}}">
+        <image src="/image/{{item.channelImg}}"></image>
+        <text>{{item.channelName}}</text>
+        <text class="sign">></text>
+      </view>
+    </view>
+  </block>
+  
+
+</view>

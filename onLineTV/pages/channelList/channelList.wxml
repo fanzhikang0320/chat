@@ -1,0 +1,31 @@
+<!--pages/channelList/channelList.wxml-->
+<view class="container">
+  <view class="page-section">
+    <view class="row">
+      <image src="/image/cctv.png"></image>
+      <text>中央电视台</text>
+    </view>
+    <swiper class="swiper" autoplay="true">
+      <block wx:for="{{channelADArr}}" wx:key="index">
+        <swiper-item>
+          <navigator url="/pages/{{item.imrUrl}}/{{item.imgUrl}}">
+            <image src="{{item.imgPath}}"></image>
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="list">
+      <view class="row listRow" wx:for="{{programList}}" wx:key="index">
+        <view class="area">
+          <text>{{item.program}}</text>
+          <text>{{item.playTime}}</text>
+        </view>
+        <button bindtap="programInfo" data-id="{{index}}">简介</button>
+      </view>
+    </view>
+
+
+
+  </view>
+  
+</view>
