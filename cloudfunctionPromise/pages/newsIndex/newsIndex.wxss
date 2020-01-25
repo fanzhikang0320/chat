@@ -1,0 +1,48 @@
+/* pages/newsIndex/newsIndex.wxss */
+.page-section {
+  width: 95%;
+  background-color: white;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin: 10rpx 0;
+}
+.title {
+  text-align: center;
+  font-size: 5vw;
+}
+.page-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  line-height: 100rpx;
+  margin: 10rpx;
+}
+.page-row text {
+  font-size: 4vw;
+  padding: 0 10rpx;
+}
+.page-row input {
+  box-sizing: border-box;
+  height: 60rpx;
+  width: 80%;
+  border: 1rpx solid #ccc;
+  border-radius: 6rpx;
+}
+.newsContent {
+  width: 100%;
+}
+.newsContent text {
+  font-size: 4vw;
+  padding: 0 10rpx;
+}
+.newsContent textarea {
+  box-sizing: border-box;
+  background-color: #ccc;
+  margin: 10rpx auto;
+  width: 90%;
+}
+button {
+  margin: 15rpx auto;
+}

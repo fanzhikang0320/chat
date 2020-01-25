@@ -1,0 +1,30 @@
+<!--pages/newsIndex/newsIndex.wxml-->
+<view class="container">
+  <view class="page-section">
+    <view class="title">新闻数据的录入</view>
+    <form bindsubmit="formsubmit" bindreset="formreset">
+      <view class="page-row">
+        <text>标题：</text>
+        <input name="newsTitle"></input>
+      </view>
+      <view class="page-row">
+        <text>描述：</text>
+        <input name="newsDescription"></input>
+      </view>
+      <view class="page-row">
+        <text>作者：</text>
+        <input name="newsAuthor"></input>
+      </view>
+      <view class="page-row">
+        <text>来源：</text>
+        <input name="newsSource"></input>
+      </view>
+      <view class="newsContent">
+        <text>文章内容：</text>
+        <textarea name="newsContent"></textarea>
+      </view>
+      <button type="primary" form-type="submit">发布</button>
+      <button type="primary" form-type="reset">重置</button>
+    </form>
+  </view>
+</view>

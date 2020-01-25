@@ -1,0 +1,2 @@
+<!--pages/index/index.wxml-->
+<button bindtap="useCloudFun" type="primary">云函数调用</button>

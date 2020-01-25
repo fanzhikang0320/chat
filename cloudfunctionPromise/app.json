@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/newsIndex/newsIndex",
+    "pages/index/index",
+    "pages/hotNews/hotNews"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "云端函数的异步返回",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/newsIndex/newsIndex",
+        "text": "我要发布",
+        "iconPath": "/source/exit.png",
+        "selectedIconPath": "/source/currentExit.png"
+      },
+      {
+        "pagePath": "pages/hotNews/hotNews",
+        "text": "新闻中心",
+        "iconPath": "/source/news.png",
+        "selectedIconPath": "/source/currentNews.png"
+      }
+    ]
+  }
+}
