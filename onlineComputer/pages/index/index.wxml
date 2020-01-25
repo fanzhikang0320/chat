@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="page-section">
+  <form bindsubmit="calNum">
+    <input name="num1" placeholder="输入数字1"></input>
+    <input name="num2" placeholder="输入数字2"></input>
+    <view class="buttonList">
+      <button type="primary" form-type="submit" data-type="+"> + </button>
+      <button type="primary" form-type="submit" data-type="-"> - </button>
+      <button type="primary" form-type="submit" data-type="*"> * </button>
+      <button type="primary" form-type="submit" data-type="/"> / </button>
+    </view>
+    <input value="{{value}}"></input>
+  </form>
+  </view>
+
+</view>
