@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<dialogComponent id="dialog" title="警告" content="小心病毒" cancelText="取消" confirmText="ok" bind:cancelEvent="_cancelEvent" bind:confirmEvent="_confirmEvent">
+</dialogComponent>
+
+<button type="primary" bindtap="showDialog">勿点我</button>
