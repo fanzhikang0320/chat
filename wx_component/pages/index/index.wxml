@@ -1,5 +1,2 @@
 <!--pages/index/index.wxml-->
-<myWelcome>
-  <view slot="pageTitle">购物</view>
-  <view slot="pageDescription">狂欢购物</view>
-</myWelcome>
+<myCustom myName="Mr.fan" myAge='30'></myCustom>

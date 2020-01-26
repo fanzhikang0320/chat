@@ -1,0 +1,9 @@
+<!--components/custom/custom.wxml-->
+<custom>
+
+  <view>{{firstContent}}</view>
+  <view>姓名：{{myName}}</view>
+  <view>年龄：{{myAge}}</view>
+  <button bindtap="mytap">按钮</button>
+  <button bindtap="_myPrivateMethod">替换</button>
+</custom>
