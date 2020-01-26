@@ -1,0 +1,6 @@
+<!--pages/read/read.wxml-->
+<myWelcome>
+  <view slot="pageTitle">阅读</view>
+  <view slot="pageDescription">好好学习</view>
+
+</myWelcome>

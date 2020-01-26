@@ -1,0 +1,11 @@
+<!--components/welcome/welcome.wxml-->
+<view>
+  <view class="breadNav">
+    <view>首页</view>
+    <view>></view>
+    <slot name="pageTitle"></slot>
+  </view>
+  <view class="page-description">
+    <slot name="pageDescription"></slot>
+  </view>
+</view>
