@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view>radio</view>
+<selected-group generic:selectable="custom-radio"></selected-group>
+
+<view>checkbox</view>
+<selected-group generic:selectable="custom-checkbox"></selected-group>
+<view>default</view>
+<selected-group></selected-group>

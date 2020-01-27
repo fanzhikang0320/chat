@@ -1,0 +1,9 @@
+<!--components/selected-group/selected-group.wxml-->
+<!-- 抽象节点 -->
+<view wx:for="{{lables}}" wx:key="this">
+  <label bindtap="itemTap" data-index="{{index}}">
+    <!-- 写抽象节点 -->
+    <selectable disabled="{{false}}" selecte="{{selected[index]}}"></selectable>
+  </label>
+{{item}}
+</view>

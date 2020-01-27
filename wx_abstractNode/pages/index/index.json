@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "selected-group": "/components/selected-group/selected-group",
+    "custom-checkbox": "/components/custom-checkbox/custom-checkbox",
+    "custom-radio": "/components/custom-radio/custom-radio"
+  }
+}
