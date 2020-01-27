@@ -1,0 +1,2 @@
+<!--components/custom-form/custom-form-input.wxml-->
+<input placeholder="输入..."></input>

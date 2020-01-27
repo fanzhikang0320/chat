@@ -1,0 +1,2 @@
+<!--components/custom-form/custom-form.wxml-->
+<slot></slot>

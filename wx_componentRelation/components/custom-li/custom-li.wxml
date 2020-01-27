@@ -1,0 +1,2 @@
+<!--components/custom-li/custom-li.wxml-->
+<view>{{lival}}</view>

@@ -1,0 +1,2 @@
+<!--components/custom-form/custom-form-submit.wxml-->
+<button type="primary">提交</button>

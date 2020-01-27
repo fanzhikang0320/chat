@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view>
+  <custom-ul>
+    <custom-li lival="li1"></custom-li>
+    <custom-li lival="li2"></custom-li>
+  </custom-ul>
+</view>
+
