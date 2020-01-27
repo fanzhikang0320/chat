@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "tag-component":"/components/tag-component/tag-component"
+  }
 }
