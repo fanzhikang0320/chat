@@ -1,0 +1,91 @@
+/* pages/index/index.wxss */
+page {
+  background-color: rgba(51, 51, 51, 0.836);
+}
+.myWrap {
+  position: fixed;
+  top: 100rpx;
+  bottom: 0rpx;  
+  width: 100%;
+  z-index: -1;
+  background-color: rgba(40, 3, 88, 0.836);
+}
+.aps {
+  width: 100%;
+  height: 100rpx;
+  background-color: linear-gradient(#7c42e6,#9d52e3);
+  box-sizing: border-box;
+  padding: 0rpx 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.apsTitle {
+  font-size: 28rpx;
+  color: #fff;
+  display: flex;
+  line-height: 100rpx;
+}
+.apsSure {
+  width: 188rpx;
+  height: 68rpx;
+  box-sizing: border-box;
+  border: 1rpx solid rgba(255, 255, 255, 1);
+  border-radius: 70rpx;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30rpx;
+}
+button {
+  background-color: transparent;
+}
+.hotType {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0 0 30rpx;
+}
+.hotTitle {
+  font-size: 54rpx;
+  font-weight: 500;
+  color: #fff;
+}
+.hotScroll {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 41rpx;
+}
+.hotScroll scroll-view {
+  white-space: nowrap;
+
+}
+
+.videoArr {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  margin-top: 96rpx;
+  overflow: hidden;
+}
+.nodata {
+  height: 200rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  color: #ffff;
+}
+
+
+
+

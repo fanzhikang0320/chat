@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "videoGroup": "/components/auglyVideo/auglyVideo"
+  },
+  "navigationBarTitleText": "热点首页",
+  "enablePullDownRefresh": true
+}
